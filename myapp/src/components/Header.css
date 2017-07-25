@@ -1,0 +1,16 @@
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Header{
+  background-color: #222222;
+}
+.header-grid{
+	display: inline-flex;
+	flex-direction: row;
+}
+.header-menu{
+	padding: 20px;
+  cursor: pointer;
+}
