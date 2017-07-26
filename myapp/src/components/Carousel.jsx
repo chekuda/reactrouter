@@ -3,7 +3,6 @@ import './Carousel.css';
 
 class Carousel extends Component{
   render() {
-    console.log(this.props);
     return(
       <div className='Carousel'>
       <div className='carousel-container'>
