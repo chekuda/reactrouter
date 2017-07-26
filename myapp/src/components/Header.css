@@ -4,6 +4,7 @@ a{
 }
 
 .Header{
+  text-align: center;
   background-color: #222222;
 }
 .header-grid{

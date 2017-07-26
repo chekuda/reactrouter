@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -26,18 +25,20 @@
   position: absolute;
   opacity: .2;
 }
-.el{
-   width: 28px;
-    height: 28px;
-}
 .square{
-  display: block;
-    pointer-events: none;
     width: 28px;
     height: 28px;
     margin: 1px;
     background-color: currentColor;
     font-size: 12px;
+}
+.particles-body{
+  z-index: -1;
+  position: absolute;
+}
+canvas{
+  position: relative;
+  width: 100%;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
